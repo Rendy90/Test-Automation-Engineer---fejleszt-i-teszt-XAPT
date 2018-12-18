@@ -47,6 +47,7 @@ namespace SeleniumDemo
                 query = driver.FindElement(By.XPath("html/body/div[3]/div[3]/div[4]/div[1]/div[2]/ul/li[7]/ul/li[1]/a/span[2]"));
                 query.Click();
 
+                Thread.Sleep(2000);
                 // Find the Test Automation Interface Model image
                 query = driver.FindElement(By.XPath("html/body/div[3]/div[3]/div[4]/div[1]/div[5]/div[1]/a/img"));
                 query.Click();
