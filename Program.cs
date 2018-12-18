@@ -63,7 +63,7 @@ namespace SeleniumDemo
                     driver.Quit();
                 }
 
-                // Search for the link of Behavior driven development and navigate to there html/body/div[3]/div[3]/div[4]/div[1]/ol[3]/li[7]/a
+                // Search for the link of Behavior driven development and navigate to there
                 query = driver.FindElement(By.XPath("html/body/div[3]/div[3]/div[4]/div[1]/ol[3]/li[7]/a"));
                 query.Click();
             }
